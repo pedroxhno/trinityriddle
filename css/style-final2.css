@@ -1,0 +1,35 @@
+.btn-hall {
+    padding: 10px 20px;
+    background: rgba(52, 152, 219, 0.5);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.hall-container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 350px;
+    height: 100%;
+    background: #111;
+    color: white;
+    padding: 20px;
+    transition: 0.4s;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.hall-container.ativo {
+    right: 0;
+}
+
+.fechar {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+}

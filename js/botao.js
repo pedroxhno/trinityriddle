@@ -1,7 +1,6 @@
-var area = document.getElementById("areaSecreta");
-var botaoSecreto = document.getElementById("botaoSecreto");
+let area = document.getElementById("areaSecreta");
+let botaoSecreto = document.getElementById("botaoSecreto");
 
-// verificar se a area existe nessa fase específica pra não dar erro no console
 if (area && botaoSecreto) {
     area.addEventListener("mouseover", () => {
         botaoSecreto.style.opacity = 1;
